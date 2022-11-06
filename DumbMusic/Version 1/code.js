@@ -6,3 +6,5 @@ document.getElementsByClassName("sm-btn sm-btn-outlined play-button sm-btn-round
 document.getElementsByClassName("sm-btn sm-btn-outlined play-button sm-btn-rounded sm-btn-m")[0].style.borderWidth = "thick";
 document.getElementsByClassName("sm-btn sm-btn-outlined record-button sm-btn-rounded sm-btn-m")[0].innerHTML = "Pathway to a False 0%";
 document.getElementsByClassName("sm-btn sm-btn-outlined record-button sm-btn-rounded sm-btn-m")[0].style.borderWidth = "thick";
+document.getElementsByClassName("sm-appbar").appendChild(document.createElement("h1").appendChild(document.createTextNode("Welcome to DumbMusic!")));
+document.getElementsByClassName("sm-appbar-content")[0].appendChild(document.createElement("h1").appendChild(document.createTextNode("Welcome to DumbMusic!")));
